@@ -2,7 +2,7 @@ const multiplicar = require('./multiplicar/multiplicar.js');
 const argv = require('yargs').argv;
 
 let base = process.argv[2];
-let prueba = 88;
+
 base = base.split('=')[1];
 
 console.log(base);
