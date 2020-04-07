@@ -8,6 +8,8 @@ let crearArchivo = (base) => {
 
         let data = '';
 
+
+
         if (!Number(base)) {
             reject(`La base no es un número`);
             return;
